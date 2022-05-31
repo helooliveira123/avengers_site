@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 40px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: #09A90F;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -400px;
+    width: 900px;
+    height: 900px;
+}
+
+.social-media{
+    position: absolute;
+    left: -800px;
+    top: 1370px;
+}
+
+.social-media img{
+    margin: 20px 0;
+    width: 40px;
+    padding: 10px;
+}
+
+#brucebanner{
+    position: absolute;
+    left: -770px;
+    top: -35px;
+    width: 1200px;
+}
+
+.bruce{
+    position: absolute;
+    top: 660px;
+    left: -770px;
+    width: 1200px;
+}
+
+.bruce h2{
+    color: #09A90F;
+    font-size: 20px;
+}
+
+.bruce p{
+    font-size: 19px;
+}

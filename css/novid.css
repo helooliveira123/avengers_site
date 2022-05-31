@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 40px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -400px;
+    width: 900px;
+    height: 900px;
+}
+
+.social-media{
+    position: absolute;
+    left: -800px;
+    top: 1300px;
+}
+
+.social-media img{
+    margin: 20px 0;
+    width: 40px;
+    padding: 10px;
+}
+
+#novidades_pic{
+    position: absolute;
+    left: -900px;
+    width: 1500px;
+    top: -35px;
+}
+
+.novidades{
+    position: absolute;
+    top: 290px;
+    left: -790px;
+}
+
+.novidades h1{
+    font-size: 20px;
+    color: #ec0001;
+}
+
+.filmes{
+    position: absolute;
+    left: -810px;
+    top: 330px;
+    cursor: pointer;
+}
+
+.filmes img{
+    margin-bottom: 20px 0;
+    width: 250px;
+    padding: 10px;
+}
+
+#fil1{
+    transition: all 0.5s;
+}
+
+#fil1:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#fil2{
+    transition: all 0.5s;
+}
+
+#fil2:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#fil3{
+    transition: all 0.5s;
+}
+
+#fil3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#fil4{
+    transition: all 0.5s;
+}
+
+#fil4:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#fil5{
+    transition: all 0.5s;
+}
+
+#fil5:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+.series_titulo{
+    position: absolute;
+    top: 820px;
+    left: -790px;
+}
+
+.series_titulo h1{
+    font-size: 20px;
+    color: #ec0001;
+}
+
+.series{
+    position: absolute;
+    left: -810px;
+    top: 860px;
+    cursor: pointer;
+}
+
+.series img{
+    margin-bottom: 20px 0;
+    width: 250px;
+    padding: 10px;
+}
+
+#ser1{
+    transition: all 0.5s;
+}
+
+#ser1:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#ser2{
+    transition: all 0.5s;
+}
+
+#ser2:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#ser3{
+    transition: all 0.5s;
+}
+
+#ser3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#ser4{
+    transition: all 0.5s;
+}
+
+#ser4:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+#ser5{
+    transition: all 0.5s;
+}
+
+#ser5:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 40px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -400px;
+    width: 900px;
+    height: 900px;
+}
+
+.social-media{
+    position: absolute;
+    left: -800px;
+    top: 1620px;
+}
+
+.social-media img{
+    margin: 20px 0;
+    width: 40px;
+    padding: 10px;
+}
+
+#avengers_pic{
+    position: absolute;
+    left: -900px;
+    width: 1500px;
+    top: -35px;
+}
+
+#linha{
+    position: absolute;
+    left: -350px;
+    top: 300px;
+    width: 400px;
+}
+
+.avengers p{
+    position: absolute;
+    left: -775px;
+    margin: 20px 0;
+    color: black;
+    font-size: 20px;
+    width: 1200px;
+    top: 400px;
+}
+
+.avengers h5{
+    position: absolute;
+    left: -800px;
+    margin-left: 30px;
+    color: black;
+    font-size: 18px;
+    max-width: 800px;
+    top: 330px;
+    font-style: italic;
+}
+
+#linha2{
+    position: absolute;
+    left: -350px;
+    top: 1590px;
+    width: 400px;
+}
